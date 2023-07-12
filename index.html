@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>tic tac</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <span class="title">My tic tac</span>
+    </nav>
+
+    <div class="container">
+        <div class="game">
+            <div class="box" onclick="change('box1')" id="box1"></div>
+            <div class="box" onclick="change('box2')" id="box2"></div>
+            <div class="box" onclick="change('box3')" id="box3"></div>
+            <div class="box" onclick="change('box4')" id="box4"></div>
+            <div class="box" onclick="change('box5')" id="box5"></div>
+            <div class="box" onclick="change('box6')" id="box6"></div>
+            <div class="box" onclick="change('box7')" id="box7"></div>
+            <div class="box" onclick="change('box8')" id="box8"></div>
+            <div class="box" onclick="change('box9')" id="box9"></div>
+        </div>
+
+        <div class="info">
+            <div id="gameover">gameover</div>
+            <div id="winner">    
+                            
+            </div>
+            <div id="turn" >Turn of: X</div>
+            
+            <button type="reset" class="reset" onclick="reset()">reset</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
